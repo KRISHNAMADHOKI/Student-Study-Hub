@@ -75,3 +75,28 @@ button {
 button:active {
   transform: scale(0.95);
 }
+
+.subjects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.subject-card {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.subject-card h3 {
+  margin: 0 0 8px;
+  color: #2563eb;
+}
+
+.subject-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
