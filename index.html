@@ -2,38 +2,58 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Study Hub</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
-  <h1>📚 Student Study Hub</h1>
+  <header>
+    <h1>📚 Student Study Hub</h1>
+    <p>Apni padhai ko smart aur organized banao 🚀</p>
+  </header>
 
-  <p>Welcome! Apni padhai ko organize karo.</p>
+  <section>
+    <h2>🏠 My Dashboard</h2>
+    <p>Welcome! Aaj kya padhna hai, yahan se start karo.</p>
+  </section>
 
-  <h2>📖 My Subjects</h2>
+  <section>
+    <h2>📖 My Subjects</h2>
 
-  <ul>
-    <li>Hindi</li>
-    <li>English</li>
-    <li>History</li>
-    <li>Political Science</li>
-  </ul>
+    <ul>
+      <li>Hindi</li>
+      <li>English</li>
+      <li>History</li>
+      <li>Political Science</li>
+    </ul>
+  </section>
 
-  <h2>⏱️ Study Timer</h2>
+  <section>
+    <h2>⏱️ Study Timer</h2>
 
-  <div id="timer">25:00</div>
+    <div id="timer">25:00</div>
 
-  <button id="startTimer">Start Study</button>
-  <button id="resetTimer">Reset</button>
+    <button id="startTimer">Start Study</button>
+    <button id="resetTimer">Reset</button>
+  </section>
 
-  <h2>✅ My Tasks</h2>
+  <section>
+    <h2>✅ My Tasks</h2>
 
-  <input type="text" id="taskInput" placeholder="Apna task likho">
-  <button id="addTask">Add Task</button>
+    <input
+      type="text"
+      id="taskInput"
+      placeholder="Apna task likho"
+    >
 
-  <ul id="taskList"></ul>
+    <button id="addTask">Add Task</button>
+
+    <ul id="taskList"></ul>
+  </section>
 
   <script src="script.js"></script>
+
 </body>
 </html>
